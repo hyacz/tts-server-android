@@ -215,7 +215,7 @@ let EditorJS = {
 
         // 自然语言指令
         let instructionInput = JTextInput(ctx, "风格指令 (Style Instruction)")
-        instructionInput.text = ttsrv.tts.data['userInstruction'] || ''
+        instructionInput.text.set(ttsrv.tts.data['userInstruction'] || '')
         linerLayout.addView(instructionInput)
         ttsrv.setMargins(instructionInput, 2, 4, 0, 0)
 
