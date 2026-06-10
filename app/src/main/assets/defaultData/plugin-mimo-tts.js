@@ -220,7 +220,7 @@ let EditorJS = {
         ttsrv.setMargins(instructionInput, 2, 4, 0, 0)
 
         instructionInput.addTextChangedListener({
-            onTextChanged: function (s) {
+            onChanged: function (s) {
                 ttsrv.tts.data['userInstruction'] = s.toString()
             }
         })
