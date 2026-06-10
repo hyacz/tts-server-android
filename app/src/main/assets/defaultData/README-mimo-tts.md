@@ -19,7 +19,9 @@
 在 TTS Server 应用中：
 1. 进入 **设置** -> **插件管理**
 2. 点击 **导入插件**
-3. 选择 `plugin-mimo-tts.js` 文件
+3. 选择 `plugin-mimo-tts-import.json` 文件（注意：必须导入 JSON 格式文件，不是 JS 文件）
+
+**重要**: TTS Server 要求导入 JSON 格式的配置文件，而不是直接的 JavaScript 代码。请使用 `plugin-mimo-tts-import.json` 文件进行导入。
 
 ### 3. 配置 API Key
 
