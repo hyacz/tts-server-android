@@ -246,8 +246,3 @@ let EditorJS = {
         // 音色变更时的处理
     }
 }
-
-// 辅助函数：创建 Item 对象
-function Item(label, value) {
-    return {label: label, value: value}
-}
